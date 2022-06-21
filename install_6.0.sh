@@ -3,19 +3,6 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 LANG=en_US.UTF-8
 
-clear
-echo -e " "
-echo -e "\033[31m 若在使用中发现问题，请及时联系 TG群组：@rsakuras 进行反馈！ \033[0m"
-echo -e " "
-echo -e "\033[32m 赞助商ADS: \033[0m"
-echo -e "\033[32m 美国洛杉矶CN2GIA服务器-特价促销中-KURUN CLOUD机房直销 \033[0m"
-echo -e "\033[32m 官网:https://www.kurun.com/ \033[0m"
-echo -e " "
-echo -e "\033[33m 如果你不喜欢脚本有ads，可以tg联系删除！ \033[0m"
-echo -e "\033[33m 脚本托管由该服务商提供，影响你的使用的话请见谅！ \033[0m"
-echo -e " "
-sleep 5s
-
 if [ $(whoami) != "root" ];then
 	echo "请使用root权限执行宝塔安装命令！"
 	exit 1;
